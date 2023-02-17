@@ -1,0 +1,45 @@
+name: manav_s_application1
+description: A new Flutter project.
+version: 1.0.0+1
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+dependencies:
+  audioplayers: ^3.0.1
+  cached_network_image: ^3.2.1
+  cloud_firestore: ^4.3.1
+  device_preview: ^1.1.0
+  firebase_auth: ^4.2.5
+  firebase_core: ^2.4.1
+  flutter:
+    sdk: flutter
+  flutter_email_sender: ^5.1.0
+  flutter_mailer: ^2.0.0
+  flutter_svg: ^1.1.6
+  fluttertoast: ^8.1.2
+  http: ^0.13.5
+  im_animations: ^0.1.2
+  intl: ^0.17.0
+  get: ^4.6.5
+  just_audio_cache: ^0.1.1
+  outline_gradient_button: ^2.0.0+1
+  provider: ^6.0.5
+  rename: ^2.1.1
+  volume_control: ^0.1.5
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/
+    - assets/images/
+    - assets/audio/
+  fonts:
+    - family: Lora
+      fonts:
+        - asset: assets/fonts/LoraRomanSemiBold.ttf
+          weight: 600
+        - asset: assets/fonts/LoraRomanRegular.ttf
+          weight: 400
+        - asset: assets/fonts/LoraRomanMedium.ttf
+          weight: 500
